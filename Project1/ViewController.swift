@@ -24,5 +24,20 @@ class ViewController: UITableViewController {
             }
         }
     }
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return pictures.count
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Picture", for: indexPath)
+        if (indexPath.row % 2 == 0)
+        {
+            cell.textLabel?.text = pictures[indexPath.row] + " 🚀"
+        } else {
+            cell.textLabel?.text = pictures[indexPath.row] + " 🛸"
+        }
+        return cell
+    }
 }
 
