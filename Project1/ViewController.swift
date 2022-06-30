@@ -14,6 +14,10 @@ class ViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = "Storm Viewer"
+        
+        navigationController?.navigationBar.prefersLargeTitles = true
+        
         let fm = FileManager.default
         let path = Bundle.main.resourcePath!
         let items = try! fm.contentsOfDirectory(atPath: path)
@@ -44,6 +48,8 @@ class ViewController: UITableViewController {
         if let vc = storyboard?.instantiateViewController(withIdentifier: "Detail") as? DetailViewController {
             vc.selectedImage = pictures[indexPath.row]
             navigationController?.pushViewController(vc, animated: true)
+            vc.currentImage = indexPath.row + 1
+            vc.totalImage = pictures.count
         }
     }
 }
