@@ -1,6 +1,6 @@
 //
 //  DetailViewController.swift
-//  Project1
+//  Storm Viewer
 //
 //  Created by Karthus Saffron on 6/30/22.
 //  Copyright © 2022 koztimesin. All rights reserved.
