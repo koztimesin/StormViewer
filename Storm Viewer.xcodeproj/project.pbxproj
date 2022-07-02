@@ -27,7 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		53749005286C69A3000AF3AE /* Project1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53749005286C69A3000AF3AE /* Storm Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Storm Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53749008286C69A3000AF3AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5374900A286C69A3000AF3AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5374900C286C69A3000AF3AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		53748FFC286C69A3000AF3AE = {
 			isa = PBXGroup;
 			children = (
-				53749007286C69A3000AF3AE /* Project1 */,
+				53749007286C69A3000AF3AE /* Storm Viewer */,
 				53749006286C69A3000AF3AE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,12 +70,12 @@
 		53749006286C69A3000AF3AE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				53749005286C69A3000AF3AE /* Project1.app */,
+				53749005286C69A3000AF3AE /* Storm Viewer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		53749007286C69A3000AF3AE /* Project1 */ = {
+		53749007286C69A3000AF3AE /* Storm Viewer */ = {
 			isa = PBXGroup;
 			children = (
 				53749008286C69A3000AF3AE /* AppDelegate.swift */,
@@ -88,7 +88,7 @@
 				53749016286C69A4000AF3AE /* Info.plist */,
 				5374901C286C6AFF000AF3AE /* Content */,
 			);
-			path = Project1;
+			path = "Storm Viewer";
 			sourceTree = "<group>";
 		};
 		5374901C286C6AFF000AF3AE /* Content */ = {
@@ -111,9 +111,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		53749004286C69A3000AF3AE /* Project1 */ = {
+		53749004286C69A3000AF3AE /* Storm Viewer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 53749019286C69A4000AF3AE /* Build configuration list for PBXNativeTarget "Project1" */;
+			buildConfigurationList = 53749019286C69A4000AF3AE /* Build configuration list for PBXNativeTarget "Storm Viewer" */;
 			buildPhases = (
 				53749001286C69A3000AF3AE /* Sources */,
 				53749002286C69A3000AF3AE /* Frameworks */,
@@ -123,9 +123,9 @@
 			);
 			dependencies = (
 			);
-			name = Project1;
+			name = "Storm Viewer";
 			productName = Project1;
-			productReference = 53749005286C69A3000AF3AE /* Project1.app */;
+			productReference = 53749005286C69A3000AF3AE /* Storm Viewer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -143,7 +143,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 53749000286C69A3000AF3AE /* Build configuration list for PBXProject "Project1" */;
+			buildConfigurationList = 53749000286C69A3000AF3AE /* Build configuration list for PBXProject "Storm Viewer" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -156,7 +156,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				53749004286C69A3000AF3AE /* Project1 */,
+				53749004286C69A3000AF3AE /* Storm Viewer */,
 			);
 		};
 /* End PBXProject section */
@@ -337,12 +337,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Project1/Info.plist;
+				INFOPLIST_FILE = "Storm Viewer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = koztimesin.Project1;
+				PRODUCT_BUNDLE_IDENTIFIER = "koztimesin.Storm-Viewer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -354,12 +354,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Project1/Info.plist;
+				INFOPLIST_FILE = "Storm Viewer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = koztimesin.Project1;
+				PRODUCT_BUNDLE_IDENTIFIER = "koztimesin.Storm-Viewer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -369,7 +369,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		53749000286C69A3000AF3AE /* Build configuration list for PBXProject "Project1" */ = {
+		53749000286C69A3000AF3AE /* Build configuration list for PBXProject "Storm Viewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				53749017286C69A4000AF3AE /* Debug */,
@@ -378,7 +378,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		53749019286C69A4000AF3AE /* Build configuration list for PBXNativeTarget "Project1" */ = {
+		53749019286C69A4000AF3AE /* Build configuration list for PBXNativeTarget "Storm Viewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5374901A286C69A4000AF3AE /* Debug */,
