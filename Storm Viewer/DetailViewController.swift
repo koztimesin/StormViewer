@@ -18,9 +18,11 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-            title = "Picture \(currentImage) of \(totalImage)"
+        title = "Picture \(currentImage) of \(totalImage)"
         
         navigationItem.largeTitleDisplayMode = .never
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareTapped))
 
         if let imageToLoad = selectedImage {
             imageView.image = UIImage(named: imageToLoad)
